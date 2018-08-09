@@ -1,0 +1,83 @@
+html{
+   
+}
+body{
+    min-height: 100vh;
+    
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 20px;
+	
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+	
+    
+    
+}
+header span {
+    font-size : 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: Yellow;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    border-radius : 5px;
+    padding: 20px;
+	 background: linear-gradient(to top right, #ffccff 0%, #669999 100%) no-repeat
+
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 55vh;
+    min-width:40vw;
+    padding: 20px;
+    position:absolute;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    border-radius: 5px;
+	 background: linear-gradient(to top right, #ffccff 0%, #669999 100%) no-repeat
+}
+.convert {
+    max-width: 50vh;
+    background-color: white;
+    border: 1px solid black;
+    flex:1;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    font-family: 'Times New Roman', Times, serif
+
+}
+.currt, .currfr {
+    flex: 1;
+}
+.input {
+   padding: 10px;
+   display:flex;
+   margin-bottom: 10px;
+  
+}
+.input span {
+    
+    width:100%;
+    text-align:center;
+}
+#przelicz{
+    display:flex;
+    justify-content: center;
+    
+}
+.wynik {
+    flex: 1;
+}
+p {
+    min-height: 3.6rem;
+	text-align: center;
+}
