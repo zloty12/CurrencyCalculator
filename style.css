@@ -45,16 +45,27 @@ header span {
 	 background: linear-gradient(to top right, #ffccff 0%, #669999 100%) no-repeat
 }
 .convert {
-    max-width: 50vh;
-    background-color: white;
-    border: 1px solid black;
-    flex:1;
-    height: 30px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.7);
-    font-family: 'Times New Roman', Times, serif
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 
 }
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+.button3:hover {background-color: #e7e7e0;}
 .currt, .currfr {
     flex: 1;
 }
@@ -78,6 +89,6 @@ header span {
     flex: 1;
 }
 p {
-    min-height: 3.6rem;
+    min-height: 3.7rem;
 	text-align: center;
 }

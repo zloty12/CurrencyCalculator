@@ -1,5 +1,5 @@
-const NBPtableA = 'http://api.nbp.pl/api/exchangerates/tables/a?format=json';
-const NBPtableB = 'http://api.nbp.pl/api/exchangerates/tables/B?format=json';
+const NBPtableA = 'https://api.nbp.pl/api/exchangerates/tables/a?format=json';
+const NBPtableB = 'https://api.nbp.pl/api/exchangerates/tables/B?format=json';
 const header = document.querySelector('header');
 const currfrom = document.querySelector('.currfrom');
 const currto = document.querySelector('.currto');
